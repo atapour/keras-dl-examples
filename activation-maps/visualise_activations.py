@@ -7,7 +7,7 @@
 
 This notebook will provide an example for visualising activation maps from different blocks of a VGG-16.
 
-This is a code demonstration for CSC8637: Deep Learning module, Lecture 13: Ethics and Challenges.
+This is a code demonstration for CSC8637: Deep Learning module, Lecture 12: Ethics and Challenges.
 
 Copyright (c) 2021 School of Computing, Newcastle University, UK.
 
