@@ -28,7 +28,7 @@ cd <sub directory of one of the examples>
 ```
 In each sub-directory, you can find:
 
-+ .py file - python ode for the examples
++ .py file - python code for the examples
 + .ipynb file - a python notebook with detailed descriptions for running the examples
 
 - You can simply run a Python file by navigating to its corresponding sub-directory and running:
@@ -65,9 +65,9 @@ All code is provided _"as is"_ to aid learning and understanding of topics withi
 
 ---
 
-Please raise an issue in this repository if you find any bugs raise an issue.
-It would even be better if you submitted a git pull request with a fix.
+Please raise an issue in this repository if you find any bugs.
+It would even be better if you submitted a pull request with a fix.
 
-Many thanks,
 
-**Amir Atapour-Abarghouei**
+
+"_Deleted code is debugged code._" - Jeff Sickel
