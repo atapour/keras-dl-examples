@@ -60,7 +60,7 @@ print(f'There are {test_X.shape[0]} images of size {test_X.shape[1:]} in the Tes
 
 """Now that the dataset has been verified, we can begin preparing for the training process. First, let's import all that we need:"""
 
-from matplotlib import pyplot
+import matplotlib.pyplot as plt
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.models import Sequential

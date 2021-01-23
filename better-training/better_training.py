@@ -68,7 +68,7 @@ print(f'We have selected the first {train_X.shape[0]} images of size {train_X.sh
 
 """Now that we have had a look at the dataset we will be working with, we can begin preparing for the training process. First, let's import all that we need:"""
 
-from matplotlib import pyplot
+import matplotlib.pyplot as plt
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.utils import to_categorical
