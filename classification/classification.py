@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-# Keras Code for a CNN-based Classification using CIFAR-10
+# Keras Code for CNN-based Classification using CIFAR-10
 ---
 
 ## Author : Amir Atapour-Abarghouei, amir.atapour-abarghouei@newcastle.ac.uk
