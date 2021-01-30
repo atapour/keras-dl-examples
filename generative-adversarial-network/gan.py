@@ -319,7 +319,7 @@ gan = create_gan(generator, discriminator)
 
 # number of epochs and batch size:
 num_epochs = 50
-batch_size = 128
+batch_size = 32
 
 """We are now ready to load the data:"""
 
@@ -330,14 +330,14 @@ dataset = load_prepare_dataset()
 
 We are going to iterate over the number of epochs and the batches in every epoch in a nested loop.
 
-The losses and a number of sample images will be displayed after every 5 epochs of training so we can inspect the progress of our model:
+The losses and a number of sample images will be displayed after every 3 epochs of training so we can inspect the progress of our model:
 """
 
 # loop over the number of epochs
 for i in range(num_epochs):
 
   # every 5 epochs, print the losses and display images:
-  if i % 5 == 0:
+  if i % 3 == 0:
     eval_model(i, generator, discriminator, dataset, z_dim)
 
   # loop over the number of batches in every epoch
@@ -366,6 +366,6 @@ for i in range(num_epochs):
 
     # print the loss every 100 steps:
     if (j) % 100 == 0:
-      print(f'Epoch: {i+1:03} - Batch: {j:03}/{(dataset.shape[0]//batch_size)} - discriminator_loss_real={discriminator_loss_real:.2f} - discriminator_loss_fake={discriminator_loss_fake:.2f} - generator_loss={generator_loss:.2f}')
+      print(f'Epoch: {i+1:03} - Batch: {j:04}/{(dataset.shape[0]//batch_size)} - discriminator_loss_real={discriminator_loss_real:.2f} - discriminator_loss_fake={discriminator_loss_fake:.2f} - generator_loss={generator_loss:.2f}')
 
 print('Done!')
