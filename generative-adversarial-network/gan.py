@@ -319,7 +319,7 @@ gan = create_gan(generator, discriminator)
 
 # number of epochs and batch size:
 num_epochs = 50
-batch_size = 32
+batch_size = 64
 
 """We are now ready to load the data:"""
 
