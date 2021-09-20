@@ -10,7 +10,7 @@ This notebook will provide a simple example that loads pre-trained word embeddin
 
 This is a code demonstration for CSC8637: Deep Learning module, Lecture 09: Time-Series Data: Natural Language Processing.
 
-Copyright (c) 2021 School of Computing, Newcastle University, UK.
+Copyright (c) 2021 Amir Atapour-Abarghouei, UK.
 
 License : LGPL - http://www.gnu.org/licenses/lgpl.html
 

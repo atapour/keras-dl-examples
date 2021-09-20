@@ -9,7 +9,7 @@ This notebook will provide an example for a number of well-known convolutional n
 
 This is a code demonstration for CSC8637: Deep Learning module, Lecture 6: Convolutional Networks: Classification Architectures.
 
-Copyright (c) 2021 School of Computing, Newcastle University, UK.
+Copyright (c) 2021 Amir Atapour-Abarghouei, UK.
 
 License : LGPL - http://www.gnu.org/licenses/lgpl.html
 

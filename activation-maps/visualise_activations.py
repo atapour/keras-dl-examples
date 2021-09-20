@@ -9,7 +9,7 @@ This notebook will provide an example for visualising activation maps from diffe
 
 This is a code demonstration for CSC8637: Deep Learning module, Lecture 12: Ethics and Challenges.
 
-Copyright (c) 2021 School of Computing, Newcastle University, UK.
+Copyright (c) 2021 Amir Atapour-Abarghouei, UK.
 
 License : LGPL - http://www.gnu.org/licenses/lgpl.html
 
