@@ -34,7 +34,7 @@ In each sub-directory, you can find:
 - You can simply run a Python file by navigating to its corresponding sub-directory and running:
 
 ```
-python <example fine name>.py
+python <example file name>.py
 ```
 
 If you do not have direct access to a GPU, the examples can be run via [Google Colab](https://colab.research.google.com).
@@ -67,7 +67,3 @@ All code is provided _"as is"_ to aid learning and understanding of topics withi
 
 Please raise an issue in this repository if you find any bugs.
 It would even be better if you submitted a pull request with a fix.
-
-
-
-"_Deleted code is debugged code._" - Jeff Sickel
